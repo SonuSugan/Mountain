@@ -1,0 +1,19 @@
+
+body{
+    font-family: 'Merriweather', serif;
+}
+
+.heading{
+    text-align: center;
+}
+.image {
+    text-align: center;
+}
+
+.content p {
+    width: 100vh;
+    
+    margin: 10px;
+    margin-top: 50px;
+    text-align: justify;
+}

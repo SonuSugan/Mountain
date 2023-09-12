@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' type='text/css' media='screen' href='north.css'>
+    <title>North Mountain</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;0,900;1,900&family=Poppins:wght@300&family=Secular+One&display=swap"
+        rel="stylesheet">
+        
+</head>
+
+<body>
+    <nav class="navbar  background">
+        <ul class="left-nav">
+
+            <div class="logo"><img src="img/logo.jpg" alt="logo"></div>
+            <li><a href="#home">Home </a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact Us </a></li>
+            <li>
+                <div class="dropdown">
+                    <button class="dropbtn">Mountains
+                        <i class="fa-solid fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="http://127.0.0.1:5500/north/K2.html">North</a>
+                        <a href="#">South</a>
+                        <a href="#">East</a>
+                        <a href="#">West</a>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <section class="main">
+        <div class="left">
+            <ul>
+                <li> <a href="http://127.0.0.1:5500/north/Saltoro.html" target="page"> Saltoro Mountains </a></li>
+                <li> <a href="http://127.0.0.1:5500/north/Karakoram.html" target="page">Karakoram </a></li>
+                <li> <a href="http://127.0.0.1:5500/north/Deosai.html" target="page">Deosai Mountains</a></li>
+                <li> <a href="http://127.0.0.1:5500/north/Ladakh.html" target="page"> Ladakh Range </a></li>
+                <li> <a href="http://127.0.0.1:5500/north/Zanskar.html" target="page">Zanskar Range</a></li>
+                <li> <a href="http://127.0.0.1:5500/north/pir.html" target="page">Pir Panjal Range </a></li>
+                <li> <a href="http://127.0.0.1:5500/north/zabarwan.html" target="page">Zabarwan Range </a></li>
+                <li> <a href="http://127.0.0.1:5500/north/Dhauladhar.html" target="page"> Dhauladhar Range</a></li>
+                <li> <a href="http://127.0.0.1:5500/north/kishtwar.html" target="page">Kishtwar Himalaya </a></li>
+                <li> <a href="http://127.0.0.1:5500/north/garhwal.html" target="page"> Garhwal Himalaya</a></li>
+                <li> <a href="http://127.0.0.1:5500/north/Dundwa.html" target="page"> Dundwa Range</a></li>
+            </ul>
+
+        </div>
+      
+
+        <div id="right">
+            <iframe src="Saltoro.html" name="page"></iframe>
+            <iframe2 src="Karakoram.html" name="page"></iframe>
+            <iframe3 src="Deosai.html" name="page"></iframe>
+            <iframe4 src="Ladakh.html" name="page"></iframe>
+            <iframe5 src="Zanskar.html" name="page"></iframe>
+            <iframe6 src="pir.html" name="page"></iframe>
+            <iframe6 src="zabarwan.html" name="page"></iframe>
+            <iframe7 src="Dhauladhar.html" name="page"></iframe>
+            <iframe8 src="kishtwar.html" name="page"></iframe>
+            <iframe9 src="garhwal.html" name="page"></iframe>
+            <iframe10 src="garhwal.html" name="page"></iframe>
+            <!-- <script>
+                function loadContent () {
+          // (A) FETCH "DUMMY.HTML"
+          fetch("saltoro.html")
+         
+          // (B) RETURN THE RESULT AS TEXT
+          .then((result) => {
+            if (result.status != 200) { throw new Error("Bad Server Response"); }
+            return result.text();
+          })
+         
+          // (C) PUT LOADED CONTENT INTO <DIV>
+          .then((content) => {
+            document.getElementById("right").innerHTML = content;
+          })
+         
+        }
+            </script> -->
+
+        </div>
+        
+    </section>
+
+</body>
+
+</html>
